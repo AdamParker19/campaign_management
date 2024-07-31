@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import CampaignList from '../components/CampaignList';
 import { FetchCampaigns } from '../lib/api';
 import { Campaign } from '../types/Campaign';
-import '@/styles/styles.module.css'
 const HomePage: React.FC = () => {
     const [campaigns, setCampaigns] = useState<Campaign[]>([]);
 
